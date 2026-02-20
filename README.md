@@ -1,8 +1,4 @@
-# dental-technician-salary-analysis-cz
-Analysis of gross monthly wages for dental technicians (CZ-ISCO 3214) based on publicly available data from ISPV/MPSV (Czech Ministry of Labour and Social Affairs).
-# === Vygenerování README.md ===
-
-readme_cz = """# Vývoj platů zubních techniků v ČR (2017–2024)
+#  Vývoj platů zubních techniků v ČR (2017–2024)
 
 Analýza vývoje hrubých měsíčních mezd odborných pracovníků v oblasti zubní techniky 
 (CZ-ISCO 3214) na základě veřejně dostupných dat ISPV/MPSV ČR.
@@ -64,12 +60,8 @@ publikace Ministerstva práce a sociálních věcí ČR.
 ## Autor
 
 Projekt vznikl jako součást kurzu Datová analýza v Pythonu ([BeeIT](https://beeit.cz)).
-"""
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_cz)
-
-print("✓ README.md vytvořeno")
+---
 
 # Dental Technician Salary Analysis – Czech Republic (2017–2024)
 
@@ -131,14 +123,3 @@ Since charts use Czech labels (targeting the Czech labour market), here is a qui
 
 - Python 3, pandas, matplotlib
 - Google Colab
-
----
-
-**Jak to použiješ na GitHubu:** `README.md` bude česká verze (tu uvidí každý automaticky). Na konec české verze přidej řádek:
-```
-🇬🇧 [English version](README_EN.md)
-```
-
-A na konec anglické verze:
-```
-🇨🇿 [Česká verze](README.md)
